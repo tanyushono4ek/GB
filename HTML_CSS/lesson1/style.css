@@ -1,3 +1,34 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+     width: 1140px; 
+     margin: 0 
+     auto; 
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+
+
+    .big_green_square{
+        display: flex;
+        justify-content: space-around;
+}
+    .lilac_square{
+        width: 359;
+    }
+
+
+
+
+
 body{
     font-family: sans-serif;
 }
@@ -11,8 +42,17 @@ body{
 .mainhead{
     font-size: 64px;
     color: #1F3F68;
+    width: 510;
 }
 
+.paragraph_main{
+    display: inline;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    width: 425;
+
+}
 .secondmainhead{
     font-weight: 500;
     font-size: 44px;
