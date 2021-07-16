@@ -11,42 +11,52 @@
 
 <body>
     <div class="container">
-        <ul class="menu">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+        <div class="container">
+            <ul class="header">
+                <li><a href="index.html"><img src="images/logo.svg" alt="logo"></a></li>
+                <li><a href="contacts.html"><img src="images/address-book-solid 1.svg" alt="contacts"></a></li>
+            </ul>
+        </div>
 
         <div class="contact_us_sqare">
 
-            <h2 class="secondmainhead">Contact Us</h2>
-            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, itaque?</p>
+        <div class="contact_top">
+            <img class="cont_img" src="images/contact_background.png" alt="#">
+            <h2 class="contact_mainhead">Contact Us</h2>
+            <p class="paragraph contact_maintext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, itaque?</p>
         </div>
+        </div>
+    </div>
+    <div class="adress_square">
         <div class="big_square">
             <div class="contact_square">
-                <img src="./images/tlph.png" alt="telphone" width="100px">
+                <img src="images/ill_contact.png" alt="contactus">
             <br>
-                <h4 class="littlehead">Adress
+                <h4 class="littlehead cont_head">Adress
                 </h4>
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                <h4 class="littlehead">Phone</h4>
+                <p class="paragraph cont_text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <br>
+                <h4 class="littlehead cont_head">Phone</h4>
                 <ul>
-                    <li>+7(123)456-78-90</li>
-                    <li>+7(098)765-43-21</li>
+                    <li class="cont_text adr_text" ><img src="images/phone.svg"> +7(123)456-78-90</li>
+                    <li class="cont_text adr_text"><img src="images/phone.svg"> +7(098)765-43-21</li>
                 </ul>
-                <h4 class="littlehead">Online servise</h4>
-                <ul>
-                    <li><a href="index.html">site</a> </li>
-                    <li><a href="mailto:write@anymail.com">write@anymail.com</a> </li>
+                <br>
+                <h4 class="littlehead cont_head">Online servise</h4>
+                <ul class="adr_text online_text">
+                    <li><img src="images/world.svg"><a href="index.html"> site</a> </li>
+                    <li><img src="images/letter.svg"><a href="mailto:write@anymail.com"> write@anymail.com</a> </li>
                 </ul>
             </div>
             <form action="#"></form>
             <div class="form_square">
-                <h4 class="littlehead">Send us message</h4>
-                Full Name <input class="wdws" type="text" size="30" placeholder="Adam"><br>
+                <h4 class="littlehead form_head">Send us message</h4>
+                <p class="wdws_text"> Name</p> <input class="wdws little_wdws" type="text" size="30" placeholder="   Your Name"><br>
                 <br>
-                Email <input class="wdws" type="email" size="30" placeholder="your@email.com"><br>
+                <p class="wdws_text">Email</p> <input class="wdws little_wdws" type="email" size="30" placeholder="   Your Email"><br>
                 <br>
-                Message <textarea class="wdws" name="message" cols="30" rows="5"></textarea><br>
+                <p class="wdws_text">Message</p> <textarea class="wdws big_wdws" name="message" cols="30" rows="5" size="30"
+                placeholder="   Your Message"></textarea><br>
                 <br>
                 <button class="button" type="submit">Submit</button> <br>
             </div>
@@ -63,19 +73,25 @@
         <div class="container">
             <div class="yellow_square">
                 <div class="pink_square">
-                    <h3 class="justhead_footer">the third head</h3>
-                    <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, ab.</p>
+                    <h3 class="justhead_footer">Intersted to woek with our team?</h3>
+                    <p class="paragraph text_footer">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, ab.
+                    </p>
                 </div>
+                <a href="#" class="footer_button">Let’s Talk</a>
             </div>
-            <hr>
+        </div>
+        <hr>
+        <div class="container">
             <div class="lightgreen_square">
                 <ul class="footer_contact">
-                    <li>Попробуйте написать или позвонить</li>
-                    <li><a href="tel: +7(123)456-78-90">+7(123)456-78-90</a></li>
-                    <li><a href="mailto:write@anymail.com">write@anymail.com</a></li>
+                    <li class="contact_text"> A.Попробуйте написать или позвонить</li>
+                    <li class="contact_text"> T. +7(123)456-78-90</a></li>
+                    <li class="contact_text"> E. write@anymail.com</a></li>
                 </ul>
+
+
                 <div class="grey_square">
-                    <p class="paragraph">Все права защищены &copy;</p>
+                    <p class="paragraph copy_right">Все права защищены &copy;</p>
                 </div>
             </div>
         </div>
