@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+}
+
+.menu{
+    background-color: rgba(34, 34, 34, 1);
+    
+}
+.menu_cont{
+    color: rgba(232, 232, 232, 1);
+    display: flex;
+    justify-content: space-between;
+
+}
+.content{
+
+}
+
+.top_content{
+    background-color: rgba(241, 228, 230, 1);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer_bottom{
+    background-color: rgba(34, 34, 34, 1);
+}
