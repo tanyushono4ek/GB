@@ -17,6 +17,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: rgba(34, 34, 34, 1);
+   
     
 }
     
@@ -35,21 +36,44 @@
  margin-right: 20px;
 }
 
-#search_btn{
-    left: 19.75%;
- right: 78.63%;
- top: 0.74%;
- bottom: 98.56%;
- background: #E8E8E8;
+.menu_search_btn{
+    display: block;
+    position: relative;
+}
+.search_btn{
+    width: 29px;
+    height: 40px;
 }
 
-.right_menu{
-    display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-        margin: 18px 0 19px 0;
+.search_line{
+    display: none;
+    opacity: 0;
+}
 
-    }
+.menu_search_btn:hover .search_line{
+    display: block;
+    opacity: 1;
+    width: 200px;
+    height: 20px;
+    position: fixed;
+}
+
+.page_header_btn_wrp{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 28px 0 39px 0;
+    
+
+}
+
+.menu_btn{
+    color: #F8F8F8;
+    background: 0;
+    text-decoration: none;
+    display: block;
+
+}
 
 .top_content{
 
@@ -244,13 +268,17 @@
 }
 
 .products_item{
-        width: 400px;
+        width: 360px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 15px;
+        margin: 15px;
         text-align: left;
+        background-color: #222222;
+        opacity: 1;
+        position: relative;
+        
         
 
 }
@@ -261,6 +289,7 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
+    
 }
 
 .products_txt{
@@ -282,7 +311,8 @@
     line-height: 16px;
     color: #000000;
     text-transform: uppercase;
-    padding: 15px;
+    padding: 3px 15px ;
+    
 
 }
 .products_item_txt{
@@ -305,7 +335,35 @@
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
+    padding: 5px 15px;
+}
+
+.products_item_text_area{
+    background-color: #F8F8F8;
     padding: 15px;
+}
+
+.products_item:hover .products_item_photo{
+   opacity: 0.5;
+
+}
+
+
+.products_item_btn{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    color:#FFFFFF;
+    border: solid 1px #FFFFFF;
+    background: 0;
+    top: 200px;
+    left: 120px;
+    padding: 20px 30px;
+
+}
+
+.products_item:hover .products_item_btn{
+    opacity: 1;
 }
 
 .products_btn{
@@ -319,6 +377,13 @@
     background-color: #FFFFFF;
     padding: 10px 30px;
     margin-bottom: 50px;
+}
+.products_btn:hover{
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
 
 
