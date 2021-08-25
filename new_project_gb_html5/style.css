@@ -628,6 +628,12 @@ button:focus-visible{
   border: none;
   background-color: transparent;
 }
+
+.list_search_size {
+  width: 140px;
+  border: none;
+  background-color: transparent;
+}
 .list_btn_title {
   display: block;
   width: 100%;
@@ -676,6 +682,8 @@ button:focus-visible{
   padding: 9.5px 9.5px 9.5px 31px;
   box-sizing: border-box;
   background-color: #fff;
+  position: absolute;
+  z-index: 23;
 }
 .list_size_item {
   display: none;
@@ -882,12 +890,16 @@ button:focus-visible{
   .btns_prod{
     display: flex;
     list-style: none;
-    border-width: 10px;
+    border-width: 280px;
+    border: 1px solid #EBEBEB;
+  
   }
 
   .products_btn_2{
     counter-reset: black;
-    border: 0 solid transparent;
+    text-decoration: none;
+    padding: 15px 17px;
+    margin: 10px 0;
   }
   /*---PROD---*/
   
